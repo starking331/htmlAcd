@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ЦветОЧКИ</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="main-header">
-		<div class="header-logo">
-			<img src="images/logo.svg" alt="Логотип">
-		</div>
-		<nav>
+		<nav class="main-nav">
+			<a href="">
+				<img src="images/logo.svg" alt="Логотип">
+			</a>
 			<ul>
 				<li><a href="">Каталог</a></li>
 				<li><a href="">Доставка и оплата</a></li>
@@ -21,9 +22,10 @@
 			</ul>
 		</nav>
 	</header>
-	<main>
+
+	<main class="main-page">
 		<section class="intro">
-			<h1 class="intro-heading">Авторские букеты в Петербурге</h1>
+			<h1 class="intro-heading">Авторские букеты в <i>Петербурге</i></h1>
 			<p>Оригинальные свежие букеты с доставкой по всему городу</p>
 			<div class="catalog-button"><a href="">Смотреть каталог</a></div>
 			<div class="intro-gallery">
@@ -33,24 +35,24 @@
 			<article class="benefits">
 				<div class="delivery">
 					<img src="images/benefits_1.svg" alt="Грузовая машина" width="82" height="52">
-				    <p>Быстрая доставка</p>
+				    <p class="ben-head">Быстрая доставка</p>
 				    <p>Можем собрать букет и передать его в доставку всего за час.</p>
 				</div>
 				<div class="fresh">
 					<img src="images/benefits_2.svg" alt="Букетик" width="34" height="52">
-				    <p>Всегда свежие цветы</p>
+				    <p class="ben-head">Всегда свежие цветы</p>
 				    <p>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</p>
 				</div>
 				<div class="photo">
 					<img src="images/benefits_3.svg" alt="Фотоаппарат" width="59" height="52">
-				    <p>Отправляем фото цветов</p>
+				    <p class="ben-head">Отправляем фото цветов</p>
 				    <p>Перед доставкой сделаем фотографию букета и отправим вам.</p>
 				</div>
 			</article>
 		</section>
 
 		<section class="popular">
-			<h1 class="popular-heading">Популярные цветы</h1>
+			<h1 class="popular-heading">Популярные букеты</h1>
 		    <h2>Букет &laquo;Нежность&raquo;</h2>
 		    <p>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
 		    <p>30 × 40 см</p>
@@ -66,23 +68,29 @@
 		</section>
 		<section class="catalog-sections">
 			<div class="bridal-bouquet">
-				<h2 class="catalog-sections-heading">Свадебные букеты</h2>
-			    <p>Букеты для невесты</p>
-			    <a href=""><img src="files/catalog-section_1.jpg" alt="Свадебный букет" width="387" height="442"></a>
+				<a href="">
+					<h2 class="catalog-sections-heading">Свадебные букеты</h2>
+			    	<p>Букеты для невесты</p>
+			    	<img src="files/catalog-section_1.jpg" alt="Свадебный букет" width="387" height="442">
+			    </a>
 			</div>
 			<div class="pionies-bouquet">
-				<h2 class="catalog-sections-heading">Букеты с пионами</h2>
-				<p>Букеты с сезонными пионами</p>
-				<a href=""><img src="files/catalog-sections_2.jpg" alt="Букет с пионами" width="387" height="442"></a>
+				<a href="">
+					<h2 class="catalog-sections-heading">Букеты с пионами</h2>
+					<p>Букеты с сезонными пионами</p>
+					<img src="files/catalog-sections_2.jpg" alt="Букет с пионами" width="387" height="442">
+				</a>
 			</div>
 			<div class="choose">
-				<h2 class="catalog-sections-heading">Выбрать букет</h2>
-				<p>Букеты в ассортименте</p>
-				<a href=""><img src="files/catalog-sections_3.jpg" alt="Девушка с букетом" width="387" height="442"></a>
+				<a href="">
+					<h2 class="catalog-sections-heading">Выбрать букет</h2>
+					<p>Букеты в ассортименте</p>
+					<img src="files/catalog-sections_3.jpg" alt="Девушка с букетом" width="387" height="442">
+				</a>
 			</div>
 		</section>
 		<article class="sale">
-			<h1 class="sale-heading">скидка 10&#37; на первый заказ</h1>
+			<h1 class="sale-heading">Cкидка 10&#37; на первый заказ</h1>
 			<p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
 			<div class="sale-photo">
 				<img src="files/sale-photo.jpg" alt="Букет на столе" width="590" height="391">
@@ -90,24 +98,25 @@
 		</article>
 
 		<article class="ideal-bouquet">
+			<h1>4 шага к идеальному букету</h1>
 			<div class="order">
 				<img src="images/order.svg" alt="Ноутбук">
-				<p>Заказ</p>
+				<p class="ideal-head">Заказ</p>
 				<p>Выберите понравившийся букет из каталога и оформите заказ</p>
 			</div>
 			<div class="details">
 				<img src="images/details.svg" alt="Девушка">
-				<p>Уточнение деталей</p>
+				<p class="ideal-head">Уточнение деталей</p>
 				<p>Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
 			</div>
 			<div class="payment">
 				<img src="images/payment.svg" alt="Банковская карта">
-				<p>Оплата</p>
+				<p class="ideal-head">Оплата</p>
 				<p>Оплатить заказ можно онлайн на сайте или при получении</p>
 			</div>
 			<div class="delivery">
 				<img src="images/benefits_1.svg" alt="Грузовая машина" width="82" height="52">
-				<p>Доставка</p>
+				<p class="ideal-head">Доставка</p>
 				<p>Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
 			</div>
 		</article>

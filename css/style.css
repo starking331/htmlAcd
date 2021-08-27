@@ -1,0 +1,138 @@
+/*font-family: 'Playfair Display', serif;*/
+body{
+	color: #AE7C78;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #E5E5E5;
+	font-weight: normal;
+}
+a{
+	text-decoration: none;
+	color: #AE7C78;
+}
+ul{
+	list-style: none;
+}
+
+.main-nav{
+	font-size: 16px;
+	line-height: 20px;
+	color: #AE7C78;
+	text-align: center;
+}
+.intro-heading{
+	font-family: 'Playfair Display', serif;
+	font-size: 44px;
+	line-height: 59px;
+	font-weight: normal;
+}
+.intro p{
+	font-size: 24px;
+	line-height: 29px;
+}
+.benefits p{
+	font-size: 16px;
+	line-height: 20px;
+}
+p.ben-head{
+	font-weight: 550;
+}
+.popular-heading{
+	text-align: center;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+}
+.popular h2{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+}
+.popular p{
+	font-size: 16px;
+	line-height: 20px;
+}
+p.price{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+}
+.catalog-sections h2{
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+.catalog-sections p{
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.sale{
+	background: #AE7C78;
+}
+.sale-heading{
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	line-height: 59px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;	
+}
+.sale p{
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+}
+.ideal-bouquet h1{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+}
+.ideal-bouquet p{
+	font-size: 16px;
+	line-height: 20px;
+}
+p.ideal-head{
+	font-weight: 550;
+}
+.news-heading{
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+}
+.news p{
+	font-size: 24px;
+	line-height: 29px;
+}
+.reviews-heading{
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+}
+.main-footer{
+	background: #AE7C78;
+}
+.footer-links{
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+}
+.footer-links a{
+	color: #FFFFFF;
+}
